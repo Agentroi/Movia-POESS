@@ -50,6 +50,12 @@ Access Operate:
 
 ## 2. Start Siddhi Tooling (Editor)
 
+Download Siddhi WSO2 Streaming Tooling 4.3.0 from:
+
+    https://wso2.com/integration/wso2-streaming-integrator/
+
+And place it in the `siddhi` folder.
+
 Navigate to the tooling folder:
 
     cd siddhi/wso2si-tooling-4.3.0/bin
@@ -64,6 +70,12 @@ Use this editor to create and deploy Siddhi apps.
 ---
 
 ## 3. Start Siddhi Runtime
+
+Download Siddhi WSO2 Streaming Integrator 4.3.1 from:
+
+    https://wso2.com/integration/wso2-streaming-integrator/
+
+And place it in the `siddhi` folder.
 
 Navigate to the runtime folder:
 
