@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.siddhi" label="WSO2 Streaming Integrator - Siddhi Feature" provider-name="%providerName" version="3.0.74">
+  <description>This feature contains the dependency bundles related to Siddhi Core</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.antlr.antlr4-runtime" unpack="false" version="4.11.1"/>
+  <plugin id="io.dropwizard.metrics.core" unpack="false" version="3.2.5"/>
+  <plugin id="org.eclipse.osgi" unpack="false" version="3.14.0.v20190517-1309"/>
+  <plugin id="disruptor" unpack="false" version="3.4.2.wso2v1"/>
+  <plugin id="quartz" unpack="false" version="2.3.2.wso2v1"/>
+  <plugin id="siddhi-query-api" unpack="false" version="5.1.31"/>
+  <plugin id="siddhi-annotations" unpack="false" version="5.1.31"/>
+  <plugin id="org.apache.logging.log4j.slf4j.impl" unpack="false" version="2.22.1"/>
+  <plugin id="com.google.guava.failureaccess" unpack="false" version="1.0.1"/>
+  <plugin id="siddhi-query-compiler" unpack="false" version="5.1.31"/>
+  <plugin id="org.apache.commons.lang3" unpack="false" version="3.3.2"/>
+  <plugin id="org.eclipse.osgi.services" unpack="false" version="3.4.0.v20140312-2051"/>
+  <plugin id="com.google.guava" unpack="false" version="32.1.3.jre"/>
+  <plugin id="siddhi-core" unpack="false" version="5.1.31"/>
+  <require/>
+</feature>

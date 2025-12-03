@@ -1,0 +1,235 @@
+[2025-12-03 16:05:07,353]  INFO {org.wso2.carbon.launcher.extensions.OSGiLibBundleDeployerUtils updateOSGiLib} - Successfully updated the OSGi bundle information of Carbon Runtime: server  
+[2025-12-03 16:05:09,138]  INFO {org.wso2.msf4j.internal.websocket.WebSocketServerSC} - All required capabilities are available of WebSocket service component is available.
+[2025-12-03 16:05:09,175]  INFO {org.wso2.carbon.metrics.core.config.model.JmxReporterConfig} - Creating JMX reporter for Metrics with domain 'org.wso2.carbon.metrics'
+[2025-12-03 16:05:09,179]  INFO {org.wso2.msf4j.analytics.metrics.MetricsComponent} - Metrics Component is activated
+[2025-12-03 16:05:09,187]  INFO {org.wso2.carbon.databridge.agent.internal.DataAgentDS} - Successfully deployed Agent Server 
+[2025-12-03 16:05:09,353]  INFO {org.wso2.carbon.metrics.jdbc.core.config.model.JdbcReporterConfig} - Creating JDBC reporter for Metrics with source 'wso2-si', data source 'java:comp/env/jdbc/WSO2MetricsDB' and 60 seconds polling period
+[2025-12-03 16:05:09,356]  INFO {org.wso2.carbon.analytics.idp.client.core.utils.IdPServiceUtils} - IdP client of type 'local' is started.
+[2025-12-03 16:05:09,496]  INFO {org.wso2.msf4j.MicroservicesRunner} - Microservices server started in 42ms
+[2025-12-03 16:05:09,496]  INFO {org.wso2.msf4j.MicroservicesRunner} - Microservices server started in 42ms
+[2025-12-03 16:05:09,498]  INFO {org.wso2.transport.http.netty.contractimpl.listener.ServerConnectorBootstrap$HttpServerConnector} - HTTP(S) Interface starting on host 0.0.0.0 and port 7070
+[2025-12-03 16:05:09,498]  INFO {org.wso2.transport.http.netty.contractimpl.listener.ServerConnectorBootstrap$HttpServerConnector} - HTTP(S) Interface starting on host 0.0.0.0 and port 7443
+[2025-12-03 16:05:09,517]  INFO {org.wso2.carbon.streaming.integrator.statistics.api.StatisticsApi} - org.wso2.carbon.streaming.integrator.statistics.api.StatisticsApi service component has  started.
+[2025-12-03 16:05:09,518]  INFO {org.wso2.carbon.streaming.integrator.statistics.internal.service.OperatingSystemMetricsServiceComponent} - OperatingSystemMetricsService Component activated
+[2025-12-03 16:05:09,531]  INFO {org.wso2.carbon.databridge.receiver.binary.internal.BinaryDataReceiverServiceComponent} - org.wso2.carbon.databridge.receiver.binary.internal.Service Component is activated
+[2025-12-03 16:05:09,543]  INFO {org.wso2.carbon.databridge.receiver.binary.internal.BinaryDataReceiver} - Started Binary SSL Transport on port : 9711
+[2025-12-03 16:05:09,544]  INFO {org.wso2.carbon.databridge.receiver.binary.internal.BinaryDataReceiver} - Started Binary TCP Transport on port : 9611
+[2025-12-03 16:05:09,545]  INFO {org.wso2.carbon.databridge.receiver.thrift.internal.ThriftDataReceiverDS} - Service Component is activated
+[2025-12-03 16:05:09,550]  INFO {org.wso2.carbon.databridge.receiver.thrift.ThriftDataReceiver} - Thrift Server started at 0.0.0.0
+[2025-12-03 16:05:09,554]  INFO {org.wso2.carbon.databridge.receiver.thrift.ThriftDataReceiver} - Thrift SSL port : 7711
+[2025-12-03 16:05:09,555]  INFO {org.wso2.carbon.databridge.receiver.thrift.ThriftDataReceiver} - Thrift port : 7611
+[2025-12-03 16:05:09,597]  INFO {org.wso2.carbon.siddhi.error.handler.core.internal.ServiceComponent} - Siddhi Error Handler Core Startup Listener Service Component is Activated.
+[2025-12-03 16:05:09,598]  INFO {org.wso2.carbon.siddhi.extensions.installer.core.internal.StartupComponent} - Siddhi Extensions Installer Core Startup Listener Service Component is Activated.
+[2025-12-03 16:05:09,600]  INFO {org.wso2.msf4j.internal.MicroservicesServerSC} - All microservices are available
+[2025-12-03 16:05:09,601]  INFO {org.wso2.transport.http.netty.contractimpl.listener.ServerConnectorBootstrap$HttpServerConnector} - HTTP(S) Interface starting on host 0.0.0.0 and port 9090
+[2025-12-03 16:05:09,602]  INFO {org.wso2.transport.http.netty.contractimpl.listener.ServerConnectorBootstrap$HttpServerConnector} - HTTP(S) Interface starting on host 0.0.0.0 and port 9443
+[2025-12-03 16:05:09,750]  INFO {org.wso2.carbon.streaming.integrator.core.internal.StreamProcessorService} - Siddhi App TestSiddhiApp deployed successfully
+[2025-12-03 16:05:09,752]  INFO {org.wso2.carbon.kernel.internal.CarbonStartupHandler} - WSO2 Streaming Integrator started in 2.637 sec
+[2025-12-03 16:06:22,732] ERROR {org.apache.thrift.server.TThreadPoolServer} - Thrift Error occurred during processing of message. org.apache.thrift.transport.TTransportException: javax.net.ssl.SSLException: Unsupported or unrecognized SSL message
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:181)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:109)
+	at org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:464)
+	at org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:362)
+	at org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:245)
+	at org.apache.thrift.TBaseProcessor.process(TBaseProcessor.java:27)
+	at org.apache.thrift.server.TThreadPoolServer$WorkerProcess.run(TThreadPoolServer.java:250)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: javax.net.ssl.SSLException: Unsupported or unrecognized SSL message
+	at java.base/sun.security.ssl.SSLSocketInputRecord.handleUnknownRecord(SSLSocketInputRecord.java:462)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:175)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:111)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1507)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1422)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455)
+	at java.base/sun.security.ssl.SSLSocketImpl.ensureNegotiated(SSLSocketImpl.java:924)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1015)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:291)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:347)
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399)
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:177)
+	... 9 more
+
+[2025-12-03 16:06:23,769] ERROR {org.apache.thrift.server.TThreadPoolServer} - Thrift Error occurred during processing of message. org.apache.thrift.transport.TTransportException: javax.net.ssl.SSLException: Unsupported or unrecognized SSL message
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:181)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:109)
+	at org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:464)
+	at org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:362)
+	at org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:245)
+	at org.apache.thrift.TBaseProcessor.process(TBaseProcessor.java:27)
+	at org.apache.thrift.server.TThreadPoolServer$WorkerProcess.run(TThreadPoolServer.java:250)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: javax.net.ssl.SSLException: Unsupported or unrecognized SSL message
+	at java.base/sun.security.ssl.SSLSocketInputRecord.handleUnknownRecord(SSLSocketInputRecord.java:462)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:175)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:111)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1507)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1422)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455)
+	at java.base/sun.security.ssl.SSLSocketImpl.ensureNegotiated(SSLSocketImpl.java:924)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1015)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:291)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:347)
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399)
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:177)
+	... 9 more
+
+[2025-12-03 16:06:25,434] ERROR {org.apache.thrift.server.TThreadPoolServer} - Thrift Error occurred during processing of message. org.apache.thrift.transport.TTransportException: javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:181)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:109)
+	at org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:464)
+	at org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:362)
+	at org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:245)
+	at org.apache.thrift.TBaseProcessor.process(TBaseProcessor.java:27)
+	at org.apache.thrift.server.TThreadPoolServer$WorkerProcess.run(TThreadPoolServer.java:250)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
+	at java.base/sun.security.ssl.SSLSocketImpl.handleEOF(SSLSocketImpl.java:1715)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1515)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1422)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455)
+	at java.base/sun.security.ssl.SSLSocketImpl.ensureNegotiated(SSLSocketImpl.java:924)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1015)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:291)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:347)
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399)
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:177)
+	... 9 more
+Caused by: java.io.EOFException: SSL peer shut down incorrectly
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:494)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:483)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:160)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:111)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1507)
+	... 18 more
+
+[2025-12-03 16:06:28,819] ERROR {org.apache.thrift.server.TThreadPoolServer} - Thrift Error occurred during processing of message. org.apache.thrift.transport.TTransportException: javax.net.ssl.SSLException: Unsupported or unrecognized SSL message
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:181)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:109)
+	at org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:464)
+	at org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:362)
+	at org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:245)
+	at org.apache.thrift.TBaseProcessor.process(TBaseProcessor.java:27)
+	at org.apache.thrift.server.TThreadPoolServer$WorkerProcess.run(TThreadPoolServer.java:250)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: javax.net.ssl.SSLException: Unsupported or unrecognized SSL message
+	at java.base/sun.security.ssl.SSLSocketInputRecord.handleUnknownRecord(SSLSocketInputRecord.java:462)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:175)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:111)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1507)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1422)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455)
+	at java.base/sun.security.ssl.SSLSocketImpl.ensureNegotiated(SSLSocketImpl.java:924)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1015)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:291)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:347)
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399)
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:177)
+	... 9 more
+
+[2025-12-03 16:06:30,429] ERROR {org.apache.thrift.server.TThreadPoolServer} - Thrift Error occurred during processing of message. org.apache.thrift.transport.TTransportException: javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:181)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:109)
+	at org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:464)
+	at org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:362)
+	at org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:245)
+	at org.apache.thrift.TBaseProcessor.process(TBaseProcessor.java:27)
+	at org.apache.thrift.server.TThreadPoolServer$WorkerProcess.run(TThreadPoolServer.java:250)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
+	at java.base/sun.security.ssl.SSLSocketImpl.handleEOF(SSLSocketImpl.java:1715)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1515)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1422)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455)
+	at java.base/sun.security.ssl.SSLSocketImpl.ensureNegotiated(SSLSocketImpl.java:924)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1015)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:291)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:347)
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399)
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:177)
+	... 9 more
+Caused by: java.io.EOFException: SSL peer shut down incorrectly
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:494)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:483)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:160)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:111)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1507)
+	... 18 more
+
+[2025-12-03 16:06:58,876] ERROR {org.apache.thrift.server.TThreadPoolServer} - Thrift Error occurred during processing of message. org.apache.thrift.transport.TTransportException: javax.net.ssl.SSLException: Unsupported or unrecognized SSL message
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:181)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:109)
+	at org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:464)
+	at org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:362)
+	at org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:245)
+	at org.apache.thrift.TBaseProcessor.process(TBaseProcessor.java:27)
+	at org.apache.thrift.server.TThreadPoolServer$WorkerProcess.run(TThreadPoolServer.java:250)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: javax.net.ssl.SSLException: Unsupported or unrecognized SSL message
+	at java.base/sun.security.ssl.SSLSocketInputRecord.handleUnknownRecord(SSLSocketInputRecord.java:462)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:175)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:111)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1507)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1422)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455)
+	at java.base/sun.security.ssl.SSLSocketImpl.ensureNegotiated(SSLSocketImpl.java:924)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1015)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:291)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:347)
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399)
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:177)
+	... 9 more
+
+[2025-12-03 16:07:00,436] ERROR {org.apache.thrift.server.TThreadPoolServer} - Thrift Error occurred during processing of message. org.apache.thrift.transport.TTransportException: javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:181)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:109)
+	at org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:464)
+	at org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:362)
+	at org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:245)
+	at org.apache.thrift.TBaseProcessor.process(TBaseProcessor.java:27)
+	at org.apache.thrift.server.TThreadPoolServer$WorkerProcess.run(TThreadPoolServer.java:250)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
+	at java.base/sun.security.ssl.SSLSocketImpl.handleEOF(SSLSocketImpl.java:1715)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1515)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1422)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455)
+	at java.base/sun.security.ssl.SSLSocketImpl.ensureNegotiated(SSLSocketImpl.java:924)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1015)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:291)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:347)
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399)
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:177)
+	... 9 more
+Caused by: java.io.EOFException: SSL peer shut down incorrectly
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:494)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:483)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:160)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:111)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1507)
+	... 18 more
+
+[2025-12-03 16:08:45,467]  WARN {org.wso2.msf4j.internal.MSF4JHttpConnectorListener} - Error in http connector listener : 'Remote client closed the connection before initiating inbound request'
+[2025-12-03 16:08:57,271] ERROR {org.wso2.transport.http.netty.contractimpl.listener.SslHandshakeCompletionHandlerForServer} - Error while SSL handshake: io.netty.handler.ssl.NotSslRecordException: not an SSL/TLS record: 474554202f20485454502f312e310d0a486f73743a206c6f63616c686f73743a393434330d0a436f6e6e656374696f6e3a206b6565702d616c6976650d0a7365632d63682d75613a20224368726f6d69756d223b763d22313432222c2022476f6f676c65204368726f6d65223b763d22313432222c20224e6f745f41204272616e64223b763d223939220d0a7365632d63682d75612d6d6f62696c653a203f300d0a7365632d63682d75612d706c6174666f726d3a20226d61634f53220d0a444e543a20310d0a557067726164652d496e7365637572652d52657175657374733a20310d0a557365722d4167656e743a204d6f7a696c6c612f352e3020284d6163696e746f73683b20496e74656c204d6163204f5320582031305f31355f3729204170706c655765624b69742f3533372e333620284b48544d4c2c206c696b65204765636b6f29204368726f6d652f3134322e302e302e30205361666172692f3533372e33360d0a4163636570743a20746578742f68746d6c2c6170706c69636174696f6e2f7868746d6c2b786d6c2c6170706c69636174696f6e2f786d6c3b713d302e392c696d6167652f617669662c696d6167652f776562702c696d6167652f61706e672c2a2f2a3b713d302e382c6170706c69636174696f6e2f7369676e65642d65786368616e67653b763d62333b713d302e370d0a5365632d46657463682d536974653a206e6f6e650d0a5365632d46657463682d4d6f64653a206e617669676174650d0a5365632d46657463682d557365723a203f310d0a5365632d46657463682d446573743a20646f63756d656e740d0a4163636570742d456e636f64696e673a20677a69702c206465666c6174652c2062722c207a7374640d0a4163636570742d4c616e67756167653a2064612c656e2d55533b713d302e392c656e3b713d302e382c61663b713d302e372c69733b713d302e362c6e623b713d302e352c73763b713d302e342c66693b713d302e332c756b3b713d302e322c74723b713d302e310d0a0d0a
+[2025-12-03 16:08:58,391] ERROR {org.wso2.transport.http.netty.contractimpl.listener.SslHandshakeCompletionHandlerForServer} - Error while SSL handshake: io.netty.handler.ssl.NotSslRecordException: not an SSL/TLS record: 474554202f20485454502f312e310d0a486f73743a206c6f63616c686f73743a393434330d0a436f6e6e656374696f6e3a206b6565702d616c6976650d0a43616368652d436f6e74726f6c3a206d61782d6167653d300d0a7365632d63682d75613a20224368726f6d69756d223b763d22313432222c2022476f6f676c65204368726f6d65223b763d22313432222c20224e6f745f41204272616e64223b763d223939220d0a7365632d63682d75612d6d6f62696c653a203f300d0a7365632d63682d75612d706c6174666f726d3a20226d61634f53220d0a444e543a20310d0a557067726164652d496e7365637572652d52657175657374733a20310d0a557365722d4167656e743a204d6f7a696c6c612f352e3020284d6163696e746f73683b20496e74656c204d6163204f5320582031305f31355f3729204170706c655765624b69742f3533372e333620284b48544d4c2c206c696b65204765636b6f29204368726f6d652f3134322e302e302e30205361666172692f3533372e33360d0a4163636570743a20746578742f68746d6c2c6170706c69636174696f6e2f7868746d6c2b786d6c2c6170706c69636174696f6e2f786d6c3b713d302e392c696d6167652f617669662c696d6167652f776562702c696d6167652f61706e672c2a2f2a3b713d302e382c6170706c69636174696f6e2f7369676e65642d65786368616e67653b763d62333b713d302e370d0a5365632d46657463682d536974653a206e6f6e650d0a5365632d46657463682d4d6f64653a206e617669676174650d0a5365632d46657463682d557365723a203f310d0a5365632d46657463682d446573743a20646f63756d656e740d0a4163636570742d456e636f64696e673a20677a69702c206465666c6174652c2062722c207a7374640d0a4163636570742d4c616e67756167653a2064612c656e2d55533b713d302e392c656e3b713d302e382c61663b713d302e372c69733b713d302e362c6e623b713d302e352c73763b713d302e342c66693b713d302e332c756b3b713d302e322c74723b713d302e310d0a0d0a
+[2025-12-03 16:08:58,408] ERROR {org.wso2.transport.http.netty.contractimpl.listener.SslHandshakeCompletionHandlerForServer} - Error while SSL handshake: io.netty.handler.ssl.NotSslRecordException: not an SSL/TLS record: 474554202f20485454502f312e310d0a486f73743a206c6f63616c686f73743a393434330d0a436f6e6e656374696f6e3a206b6565702d616c6976650d0a43616368652d436f6e74726f6c3a206d61782d6167653d300d0a7365632d63682d75613a20224368726f6d69756d223b763d22313432222c2022476f6f676c65204368726f6d65223b763d22313432222c20224e6f745f41204272616e64223b763d223939220d0a7365632d63682d75612d6d6f62696c653a203f300d0a7365632d63682d75612d706c6174666f726d3a20226d61634f53220d0a444e543a20310d0a557067726164652d496e7365637572652d52657175657374733a20310d0a557365722d4167656e743a204d6f7a696c6c612f352e3020284d6163696e746f73683b20496e74656c204d6163204f5320582031305f31355f3729204170706c655765624b69742f3533372e333620284b48544d4c2c206c696b65204765636b6f29204368726f6d652f3134322e302e302e30205361666172692f3533372e33360d0a4163636570743a20746578742f68746d6c2c6170706c69636174696f6e2f7868746d6c2b786d6c2c6170706c69636174696f6e2f786d6c3b713d302e392c696d6167652f617669662c696d6167652f776562702c696d6167652f61706e672c2a2f2a3b713d302e382c6170706c69636174696f6e2f7369676e65642d65786368616e67653b763d62333b713d302e370d0a5365632d46657463682d536974653a206e6f6e650d0a5365632d46657463682d4d6f64653a206e617669676174650d0a5365632d46657463682d557365723a203f310d0a5365632d46657463682d446573743a20646f63756d656e740d0a4163636570742d456e636f64696e673a20677a69702c206465666c6174652c2062722c207a7374640d0a4163636570742d4c616e67756167653a2064612c656e2d55533b713d302e392c656e3b713d302e382c61663b713d302e372c69733b713d302e362c6e623b713d302e352c73763b713d302e342c66693b713d302e332c756b3b713d302e322c74723b713d302e310d0a0d0a

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.event.simulator.core" label="WSO2 Streaming Integrator - Event Simulator Feature" provider-name="%providerName" version="3.0.74">
+  <description>This feature contains the bundles related to Event Simulator</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.antlr.antlr4-runtime" unpack="false" version="4.11.1"/>
+  <plugin id="json" unpack="false" version="3.0.0.wso2v1"/>
+  <plugin id="generex" unpack="false" version="1.0.0.wso2v1"/>
+  <plugin id="com.google.gson" unpack="false" version="2.9.1"/>
+  <plugin id="org.apache.commons.commons-fileupload" unpack="false" version="1.5.0"/>
+  <plugin id="org.wso2.carbon.database.query.manager" unpack="false" version="6.1.69"/>
+  <plugin id="org.wso2.carbon.event.simulator.core" unpack="false" version="3.0.74"/>
+  <plugin id="fabricator_2.10" unpack="false" version="2.1.4.wso2v1"/>
+  <plugin id="org.apache.commons.csv" unpack="false" version="1.4.0"/>
+  <require/>
+</feature>

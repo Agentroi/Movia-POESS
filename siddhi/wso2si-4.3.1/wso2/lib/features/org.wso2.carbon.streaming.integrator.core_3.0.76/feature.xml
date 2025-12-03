@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.streaming.integrator.core" label="WSO2 Streaming Integrator - Core Feature" provider-name="%providerName" version="3.0.76">
+  <description>This feature contains the bundles related to Streaming Integrator Core</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.antlr.antlr4-runtime" unpack="false" version="4.11.1"/>
+  <plugin id="tapestry-json" unpack="false" version="5.4.1.wso2v1"/>
+  <plugin id="org.apache.geronimo.specs.geronimo-activation_1.1_spec" unpack="false" version="1.1"/>
+  <plugin id="apache-mime4j-core" unpack="false" version="0.8.10.wso2v1"/>
+  <plugin id="jaxen" unpack="false" version="1.1.6"/>
+  <plugin id="net.minidev.json-smart" unpack="false" version="2.5.2"/>
+  <plugin id="org.wso2.carbon.database.query.manager" unpack="false" version="6.1.69"/>
+  <plugin id="Saxon-HE" unpack="false" version="9.7.0.wso2v1"/>
+  <plugin id="org.apache.ws.commons.axiom.axiom-api" unpack="false" version="1.4.0"/>
+  <plugin id="org.wso2.carbon.streaming.integrator.core" unpack="false" version="3.0.76"/>
+  <plugin id="org.apache.commons.logging" unpack="false" version="1.2.0"/>
+  <plugin id="org.objectweb.asm" unpack="false" version="9.6"/>
+  <plugin id="com.google.gson" unpack="false" version="2.9.1"/>
+  <plugin id="net.minidev.accessors-smart" unpack="false" version="2.5.2"/>
+  <plugin id="json-path" unpack="false" version="2.9.0.wso2v1"/>
+  <plugin id="org.apache.ws.commons.axiom.axiom-impl" unpack="false" version="1.4.0"/>
+  <require/>
+</feature>
