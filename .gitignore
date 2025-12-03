@@ -1,0 +1,44 @@
+# ----------------------------------------
+# Python
+# ----------------------------------------
+python/venv/
+__pycache__/
+*.pyc
+
+# ----------------------------------------
+# WSO2 Siddhi Runtime (auto-generated)
+# ----------------------------------------
+siddhi/wso2si-*/deployment/
+siddhi/wso2si-*/tmp/
+siddhi/wso2si-*/logs/
+siddhi/wso2si-*/wso2/server/database/
+siddhi/wso2si-*/wso2/server/tmp/
+siddhi/wso2si-*/wso2/server/work/
+siddhi/wso2si-*/wso2/server/logs/*
+siddhi/wso2si-*/wso2/server/repository/
+
+# Thrift receivers temporary files
+*.dat
+
+# ----------------------------------------
+# WSO2 Siddhi Tooling
+# ----------------------------------------
+siddhi/wso2si-tooling-*/workspace/
+siddhi/wso2si-tooling-*/logs/
+siddhi/wso2si-tooling-*/tmp/
+siddhi/wso2si-tooling-*/wso2/server/database/
+siddhi/wso2si-tooling-*/wso2/server/logs/*
+siddhi/wso2si-tooling-*/wso2/server/tmp/
+siddhi/wso2si-tooling-*/wso2/server/work/
+
+# ----------------------------------------
+# Camunda local junk
+# ----------------------------------------
+.bpmn-io
+*.bpmn.backup
+
+# ----------------------------------------
+# OS-generated files
+# ----------------------------------------
+.DS_Store
+Thumbs.db
