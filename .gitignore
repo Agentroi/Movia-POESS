@@ -8,14 +8,14 @@ __pycache__/
 # ----------------------------------------
 # WSO2 Siddhi Runtime (auto-generated)
 # ----------------------------------------
-siddhi/wso2si-*/deployment/
-siddhi/wso2si-*/tmp/
-siddhi/wso2si-*/logs/
-siddhi/wso2si-*/wso2/server/database/
-siddhi/wso2si-*/wso2/server/tmp/
-siddhi/wso2si-*/wso2/server/work/
-siddhi/wso2si-*/wso2/server/logs/*
-siddhi/wso2si-*/wso2/server/repository/
+siddhi/wso2si-4.3.1/deployment/
+siddhi/wso2si-4.3.1/tmp/
+siddhi/wso2si-4.3.1/logs/
+siddhi/wso2si-4.3.1/wso2/server/database/
+siddhi/wso2si-4.3.1/wso2/server/tmp/
+siddhi/wso2si-4.3.1/wso2/server/work/
+siddhi/wso2si-4.3.1/wso2/server/logs/*
+siddhi/wso2si-4.3.1/wso2/server/repository/
 
 # Thrift receivers temporary files
 *.dat
@@ -23,13 +23,13 @@ siddhi/wso2si-*/wso2/server/repository/
 # ----------------------------------------
 # WSO2 Siddhi Tooling
 # ----------------------------------------
-siddhi/wso2si-tooling-*/workspace/
-siddhi/wso2si-tooling-*/logs/
-siddhi/wso2si-tooling-*/tmp/
-siddhi/wso2si-tooling-*/wso2/server/database/
-siddhi/wso2si-tooling-*/wso2/server/logs/*
-siddhi/wso2si-tooling-*/wso2/server/tmp/
-siddhi/wso2si-tooling-*/wso2/server/work/
+siddhi/wso2si-tooling-4.3.0/workspace/
+siddhi/wso2si-tooling-4.3.0/logs/
+siddhi/wso2si-tooling-4.3.0/tmp/
+siddhi/wso2si-tooling-4.3.0/wso2/server/database/
+siddhi/wso2si-tooling-4.3.0/wso2/server/logs/*
+siddhi/wso2si-tooling-4.3.0/wso2/server/tmp/
+siddhi/wso2si-tooling-4.3.0/wso2/server/work/
 
 # ----------------------------------------
 # Camunda local junk

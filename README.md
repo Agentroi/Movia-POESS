@@ -9,7 +9,30 @@ This project implements an event-driven architecture for Movia’s bus operation
 
 ---
 
-## 🚀 Getting Started
+## Python Setup
+
+The Python microservice runs the integration layer between Camunda and Siddhi.
+
+### 1. Create virtual environment
+
+    cd python
+    python3 -m venv venv
+
+# Activate
+    source venv/bin/activate        # macOS/Linux
+    venv\Scripts\activate           # Windows
+
+### 2. Install dependencies
+
+    pip install -r requirements.txt
+
+### 3. Run the microservice
+
+    python app.py
+
+---
+
+## 🚀 Getting Started with Camunda and Siddhi
 
 ### 1. Start Camunda 8
 
