@@ -5,6 +5,9 @@ python/venv/
 __pycache__/
 *.pyc
 
+siddhi/wso2si-4.3.1/*
+siddhi/wso2si-tooling-4.3.0/*
+
 # ----------------------------------------
 # WSO2 Siddhi Runtime (auto-generated)
 # ----------------------------------------
